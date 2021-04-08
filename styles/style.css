@@ -114,6 +114,14 @@
   font-weight: bold;
 }
 
+.digits {
+  margin-top: 100px;
+}
+
+.section-title {
+  width: 60%;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 
 .table__cell_theme_dark {
