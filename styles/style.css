@@ -98,6 +98,8 @@
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
+  position: relative;
+  text-align: top;
 }
 
 .main-text {
@@ -116,11 +118,57 @@
 
 .digits {
   margin-top: 100px;
+  display: flex;
+  flex-direction: column;
 }
 
-.section-title {
-  width: 60%;
+.digits__title {
+  /* position: relative; */
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0 auto;
 }
+
+.digits__subtitle {
+  /* position: relative; */
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0 auto;
+}
+
+.digits__table {
+  /* position: relative; */
+  list-style-type: none;
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.digits__table__cell {
+  width: 250px;
+  margin-top: 60px;
+}
+
+.digits__table__cell__header {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.digits__table__cell__paragrath {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/* .section-title {
+  width: 60%;
+} */
 
 /* и элемента с модификатором вида ключ-значение */
 
