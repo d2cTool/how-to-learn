@@ -268,11 +268,14 @@
   justify-content: space-between;
 }
 
-.footer__column_content_copyright {
+.footer__column {
   display: flex;
   flex-direction: column;
-  flex-basis: 711px;
   align-items: flex-start;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
   justify-content: space-between;
 }
 
@@ -289,9 +292,6 @@
 }
 
 .footer__column_content_info {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
 }
 
 .footer__column-heading {
@@ -312,9 +312,6 @@
 }
 
 .footer__column_content_social {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
 }
 
 .footer__column-link {
