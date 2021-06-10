@@ -241,10 +241,6 @@
   margin-bottom: 90px;
 }
 
-.theme__dark {
-  color: white;
-}
-
 .table__cell_theme_dark {
   width: 200px;
   color: white;
@@ -254,6 +250,7 @@
 }
 
 .footer {
+  min-height: 350px;
   background-color: #1f1f1f;
   padding-top: 60px;
   padding-bottom: 40px;
@@ -291,9 +288,6 @@
   height: 35px;
 }
 
-.footer__column_content_info {
-}
-
 .footer__column-heading {
   margin: 0;
   margin-bottom: 20px;
@@ -309,9 +303,6 @@
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 16px;
-}
-
-.footer__column_content_social {
 }
 
 .footer__column-link {
