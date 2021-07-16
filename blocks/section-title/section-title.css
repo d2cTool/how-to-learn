@@ -4,4 +4,7 @@
     font-weight: bold;
     margin: 0 auto;
     z-index: 1;
+    
+    width: 60%;
+    text-align: center;
   }
